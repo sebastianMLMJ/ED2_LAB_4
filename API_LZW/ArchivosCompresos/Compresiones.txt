@@ -1,0 +1,5 @@
+ cuento.txt,  0.51,   1.95,  48.81,C:\Users\HP\source\repos\ED2_LAB_4\API_LZW\ArchivosCompresos\Compresiones.txt
+ cuento.txt,  0.51,   1.95,  48.81,C:\Users\HP\source\repos\ED2_LAB_4\API_LZW\ArchivosCompresos\Compresiones.txt
+ cuento.txt,  0.51,   1.95,  48.81,C:\Users\HP\source\repos\ED2_LAB_4\API_LZW\ArchivosCompresos\Compresiones.txt
+ cuento.txt,  0.51,   1.95,  48.81,C:\Users\HP\source\repos\ED2_LAB_4\API_LZW\ArchivosCompresos\Compresiones.txt
+ cuento.txt,  0.51,   1.95,  48.81,C:\Users\HP\source\repos\ED2_LAB_4\API_LZW\ArchivosCompresos\Compresiones.txt

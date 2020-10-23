@@ -4,7 +4,7 @@ using System.Text;
 using System.IO;
 namespace LZW
 {
-    class InfCompresion
+    public class InfCompresion
     {
         public string nombreOriginal { get; set; }
         public string RutaO { get; set; }
@@ -12,7 +12,7 @@ namespace LZW
         public double factorDeCompresion { get; set; }
         public double porcentajeDeCompresion { get; set; }
 
-       
+        public InfCompresion() { }
         public InfCompresion(string nombre, double razon, double factor, double porcentaje, string Ruta)
         {
             nombreOriginal = nombre;
@@ -53,9 +53,17 @@ namespace LZW
             string path = nuevo.RutaO;
             using (StreamWriter sw = File.AppendText(path))
             {
+                //string text =
+                //    $"Nombre Original: {nuevo.nombreOriginal}, Razon de Compresion: {nuevo.razonDeCompresion}, Factor de Compresion: {nuevo.factorDeCompresion}, Porcentaje de Compresion: {nuevo.porcentajeDeCompresion}";
+                //sw.WriteLine(text);
+
                 string text =
-                    $"Nombre Original: {nuevo.nombreOriginal}, Razon de Compresion: {nuevo.razonDeCompresion}, Factor de Compresion: {nuevo.factorDeCompresion}, Porcentaje de Compresion: {nuevo.porcentajeDeCompresion}";
-                sw.WriteLine(text);
+                     $" {nuevo.nombreOriginal},  {nuevo.razonDeCompresion},   {nuevo.factorDeCompresion},  {nuevo.porcentajeDeCompresion},{nuevo.RutaO}";
+                if (!text.Equals(""))
+                {
+                    sw.WriteLine(text);
+                }
+
             }
 
         }

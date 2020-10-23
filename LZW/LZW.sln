@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LZW", "LZW.csproj", "{51B0E1C8-3510-4C7D-B6B7-71B9E3524864}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LZW", "LZW.csproj", "{51B0E1C8-3510-4C7D-B6B7-71B9E3524864}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsolaDePruebas", "..\ConsolaDePruebas\ConsolaDePruebas.csproj", "{7DF827EC-B804-4A66-8716-4D15F49F21D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsolaDePruebas", "..\ConsolaDePruebas\ConsolaDePruebas.csproj", "{7DF827EC-B804-4A66-8716-4D15F49F21D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API_LZW", "..\API_LZW\API_LZW.csproj", "{B49CE3CC-4369-4B2E-B557-BD07874FAAA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{7DF827EC-B804-4A66-8716-4D15F49F21D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DF827EC-B804-4A66-8716-4D15F49F21D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DF827EC-B804-4A66-8716-4D15F49F21D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B49CE3CC-4369-4B2E-B557-BD07874FAAA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B49CE3CC-4369-4B2E-B557-BD07874FAAA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B49CE3CC-4369-4B2E-B557-BD07874FAAA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B49CE3CC-4369-4B2E-B557-BD07874FAAA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
