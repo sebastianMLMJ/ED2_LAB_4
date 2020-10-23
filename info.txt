@@ -1,0 +1,1 @@
+Nombre Original: cuento.txt, Razon de Compresion: 0.51, Factor de Compresion: 1.95, Porcentaje de Compresion: 48.81
